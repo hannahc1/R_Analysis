@@ -1,0 +1,23 @@
+MPG Regression
+
+1. According to the correlation matrix for the MechaCar mpg dataset, mpg has the strongest correlation with vehicle length and some correlation with ground clearance.
+2. Multiple linear regression also provides that vehicle length and ground clearance are statistically unlikely to provide random amount of variance to the linear model.
+3. While the vehicle weight and the spoiler angle's coefficients at near zero indicate near zero slope, the length and ground clearance's coefficients are measured at 6.24 and 3.66 each.
+4. The r-squared value of 0.7 provides that the model can reasonably predict the prototype.
+
+Suspension Coil Summary
+
+1. The mean and median is pretty close meaning the data is probably close to a normal distribution. However, the standard deviation of 7.9 indicates that the data points are rather spread out.
+2. A variance of 62 indicates that the average degree of the difference between each data point and the mean is 62.
+3. Mininum, maximum and the variance support that the MechaCar suspension coils meet the design specification.
+
+Suspension Coil T-Test
+
+1. The p-value of 0.06 from the t-test with the mean population results of 1,500 PSI is above the common 0.05 percent significant level.
+2. Therefore, we do not have sufficient evidence to reject the null hypothesis and we would conclude that the suspension coil's PSI has the statistically similar mean to the population.
+
+Design own study
+
+1. The question I would pose is if color options would affect the performance of the MechaCar prototype vehicle.  As the color choice of a car could have impact on the resale value and maintenance cost, the consumers will carefully weign options.
+2. The null hypothesis would be that two different color options would have similar performance outcomes and the alternate hypothesis would be that one color would performe significantly better than the other.
+3. The sales data and the color options will need to be collected to perform the Two-Sample t-Test.
